@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Components/Home';
 import About from './Components/About';
 import Service from './Components/Service';
-
+import Project from './Components/Project';
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
       <About />
       {/* Service component */}
       <Service />
+      {/* Project component */}
+      <Project />
     </div>
   );
 }
