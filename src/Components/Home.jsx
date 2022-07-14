@@ -10,10 +10,8 @@ function Home() {
               {/* Header Component */}
               <Header />
               {/* HomeContent Component */}
-              <div className='container'>
-                <HomeContent />
-              </div>
-
+              <HomeContent />
+              
           </div>
       </div>
   )
