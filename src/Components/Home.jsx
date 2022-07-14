@@ -11,7 +11,6 @@ function Home() {
               <Header />
               {/* HomeContent Component */}
               <HomeContent />
-              
           </div>
       </div>
   )

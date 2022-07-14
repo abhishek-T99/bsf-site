@@ -1,0 +1,13 @@
+h1.heading {
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color {
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 0;
+}
