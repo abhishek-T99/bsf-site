@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Service from './Components/Service';
 import Project from './Components/Project';
+import Blog from './Components/Blog';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Service />
       {/* Project component */}
       <Project />
+      {/* Blog component */}
+      <Blog />
     </div>
   );
 }
