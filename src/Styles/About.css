@@ -43,6 +43,11 @@ a.bottom__to__top{
     z-index: 1000;
 }
 
+a.bottom__to__top:hover {
+    /* background-color:#fff; */
+    border: 1px solid #fff;
+}
+
 a.bottom__to__top.active{
     display: flex;
 }
