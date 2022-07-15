@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/Header.css'
 import logo from '../Images/logo.png'
+import SideNavbar from './SideNavbar'
 
 function Header() {
 
@@ -11,6 +12,7 @@ function Header() {
   })
 
   //toggle menu
+  const [show, setShow] = useState(true)
 
   return (
     <div className='header d__flex align__items__center pxy__30'>
@@ -29,7 +31,7 @@ function Header() {
       </div>
       {/* toggle menu */}
       <div className="toggle__menu">
-        <svg
+        <svg onClick={() => setShow(!show)}
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
@@ -43,6 +45,10 @@ function Header() {
           />
         </svg>
       </div>
+      {show ? (
+        <SideNavbar />
+      ) : null}
+
     </div>
   )
 }

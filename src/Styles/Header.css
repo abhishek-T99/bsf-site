@@ -15,8 +15,12 @@ li.nav__items{
     padding-bottom: 15px;
 }
 
-svg.bi.bi-justify.white.pointer {
-    visibility: hidden;
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
 }
 
 /* RESPONSIVE */

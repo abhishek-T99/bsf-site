@@ -35,6 +35,24 @@ h4.home__text {
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
     h2.white.pz__10 {
-        font-size: 20px!important;
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h2.home__text.pz__10 {
+        font-size: 32px;
+    }
+
+    h3.sweet.pz__10 {
+        font-size: 40px;
+    }
+
+    h1.home__text {
+        font-size: 14px;
+    }
+
+    h4.home__text {
+        font-size: 45px;
     }
 }
