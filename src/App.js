@@ -5,6 +5,7 @@ import Service from './Components/Service';
 import Project from './Components/Project';
 import Blog from './Components/Blog';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Blog />
       {/* Contact component */}
       <Contact />
+      {/* Footer component */}
+      <Footer />
     </div>
   );
 }
