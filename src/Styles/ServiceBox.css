@@ -43,4 +43,10 @@ p.service__text.p__color{
     .servicebox {
         padding: 32px;
     }
+}
+
+@media only screen and (max-width: 500px){
+    .col__3 {
+        max-width: 100%;
     }
+}

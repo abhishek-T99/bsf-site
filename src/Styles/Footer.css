@@ -8,3 +8,13 @@
     font-size: 14px;
     opacity: 0.75;
 }
+
+@media only screen and (max-width: 500px){
+    span.copyright {
+        font-size: 13px!important;
+    }
+
+    .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
+      flex-wrap: wrap;
+    }
+}
