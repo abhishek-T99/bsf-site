@@ -1,0 +1,39 @@
+.servicebox {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+}
+
+.servicebox:hover {
+    transform: scale(1.06);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
+}
+
+.servicebox:hover .icon {
+    color: #fff;
+}
+
+.servicebox:hover p.service__text.p__color {
+    color: #fff !important;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #f9004d;
+}
+
+h1.service__text {
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+}
+
+p.service__text.p__color{
+    margin-bottom: 0;
+    text-justify: auto;
+}

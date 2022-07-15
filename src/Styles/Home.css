@@ -1,0 +1,8 @@
+.home__bg {
+    background-image: url(../Images/bg.jpg);
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
