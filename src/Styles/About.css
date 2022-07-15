@@ -52,4 +52,11 @@ a.bottom__to__top:hover {
     border: 1px solid #fff;
 }
 
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+    .p__color {
+        font-size: 15px;
+    }
+}
+
 

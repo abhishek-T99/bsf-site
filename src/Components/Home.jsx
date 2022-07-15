@@ -5,7 +5,7 @@ import HomeContent from './HomeContent'
 
 function Home() {
   return (
-      <div className='home'>
+      <div className='home' id='Home'>
           <div className='home__bg'>
               {/* Header Component */}
               <Header />

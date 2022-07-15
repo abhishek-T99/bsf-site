@@ -37,3 +37,10 @@ p.service__text.p__color{
     margin-bottom: 0;
     text-justify: auto;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px){
+    .servicebox {
+        padding: 32px;
+    }
+    }

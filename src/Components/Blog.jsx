@@ -7,7 +7,7 @@ import blogimg3 from '../Images/blog-03.jpg'
 
 function Blog() {
   return (
-    <div className='blog component__space'>
+    <div className='blog component__space' id='Blog'>
         <div className="heading">
             <h1 className='heading'>
                 Latest News

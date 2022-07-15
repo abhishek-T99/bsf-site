@@ -8,7 +8,7 @@ import image4 from '../Images/portfolio-4.jpg'
 
 function Project() {
   return (
-    <div className='project component__space'>
+    <div className='project component__space' id='Project'>
         <div className="heading">
             <h1 className='heading'>
                 Our Projects

@@ -4,7 +4,7 @@ import contactImg from '../Images/about-9.jpg'
 
 function Contact() {
   return (
-    <div className='contact component__space'>
+    <div className='contact component__space' id='Contact'>
         <div className='row'>
             <div className='col__2'>
                 <div className='contact__box'>

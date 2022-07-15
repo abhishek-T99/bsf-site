@@ -1,5 +1,38 @@
+.header {
+    transition: .4s all ease;
+}
+
+.header.active {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+
 li.nav__items{
     font-size: 18px;
     padding-bottom: 15px;
+}
+
+svg.bi.bi-justify.white.pointer {
+    visibility: hidden;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+    
+    .navigation.pxy__30 {
+        display: none;
+    }
+
+    svg.bi.bi-justify.white.pointer {
+        visibility: visible;
+        width: 30px;
+        height: 30px;
+    }
 }
 

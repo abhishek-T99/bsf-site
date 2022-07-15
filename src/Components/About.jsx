@@ -10,7 +10,7 @@ function About() {
     })
 
     return (
-        <div className='about component__space'>
+        <div className='about component__space' id='About'>
             <div className='container'>
                 <div className='row'>
                     <div className='col__2'>

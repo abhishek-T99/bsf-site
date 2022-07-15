@@ -5,7 +5,7 @@ import '../Styles/Service.css'
 
 function Service() {
   return (
-    <div className='service component__space'>
+    <div className='service component__space' id='Services'>
         <div className="heading">
             <h1 className='heading'>
                 Our Services
