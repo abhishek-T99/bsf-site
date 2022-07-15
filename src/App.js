@@ -4,6 +4,7 @@ import About from './Components/About';
 import Service from './Components/Service';
 import Project from './Components/Project';
 import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Project />
       {/* Blog component */}
       <Blog />
+      {/* Contact component */}
+      <Contact />
     </div>
   );
 }

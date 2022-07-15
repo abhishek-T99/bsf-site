@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/BlogBox.css'
-import blogimg from '../Images/blog-01.jpg'
 
 export default function BlogBox({ image, heading, description }) {
   return (
