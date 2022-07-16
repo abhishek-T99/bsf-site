@@ -26,6 +26,7 @@ function Header() {
           <a href='/#Services'><li className='nav__items mx__15'>Services</li></a>
           <a href='/#Project'><li className='nav__items mx__15'>Projects</li></a>
           <a href='/#Staffs'><li className='nav__items mx__15'>Staffs</li></a>
+          <a href='/#Child'><li className='nav__items mx__15'>Children</li></a>
           <a href='/#Blog'><li className='nav__items mx__15'>Blog</li></a>
           <a href='/#Contact'><li className='nav__items mx__15'>Contact</li></a>
         </ul>

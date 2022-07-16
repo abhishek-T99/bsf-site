@@ -21,6 +21,9 @@ function SideNavbar() {
                     <a href="#Staffs">Staffs</a>
                 </li>
                 <li className="sideNavbar">
+                    <a href="#Child">Children</a>
+                </li>
+                <li className="sideNavbar">
                     <a href="#Blog">Blog</a>
                 </li>
                 <li className="sideNavbar">
