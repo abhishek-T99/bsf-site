@@ -19,6 +19,7 @@ li.nav__items{
     display: flex;
     justify-content: flex-end;
     float: right;
+    visibility: hidden;
     z-index: 1000;
     width: 100%;
 }
