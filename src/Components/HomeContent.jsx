@@ -7,15 +7,15 @@ function HomeContent() {
     <div className='container'>
         <div className='home__content'>
             <div className='home__meta'>
-                <h1 className='home__text pz__10'>WELCOME TO MY WORLD</h1>
+                <h1 className='home__text pz__10'>Welcome TO BSF Site</h1>
                 <h2 className='home__text pz__10'>
-                    Hi! I am Abhishek
+                    Do Good and  
                 </h2>
                 <h3 className='home__text sweet pz__10'>
-                    Full Stack Web Developer.
+                    Good will come to you.
                 </h3>
                 <h4 className="home__text pz__10">
-                    I'm from Nepal
+                    -Sanjiv Sedhai
                 </h4>
             </div>
         </div>

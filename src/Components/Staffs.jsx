@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Styles/Staffs.css'
 import StaffBox from './StaffBox'
-import staffImg1 from '../Images/profile-1.jpeg'
+import staffImg1 from '../Images/susmita.jpg'
+import staffImg2 from '../Images/alish.jpg'
 
 
 function Staffs() {
@@ -26,7 +27,7 @@ function Staffs() {
             <div className='row'>
                 <div className='col__3'>
                     <StaffBox 
-                        name='Staff 1'
+                        name='Susmita Gautam'
                         image={staffImg1}
                         testimonial='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita numquam ipsam, consequuntur delectus 
                         dolorem voluptas quasi est adipisci ut eveniet.'
@@ -34,8 +35,8 @@ function Staffs() {
                 </div>
                 <div className='col__3'>
                     <StaffBox 
-                        name='Staff 2'
-                        image={staffImg1}
+                        name='Alish Baniya'
+                        image={staffImg2}
                         testimonial='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita numquam ipsam, consequuntur delectus 
                         dolorem voluptas quasi est adipisci ut eveniet.'
                     />
@@ -51,7 +52,7 @@ function Staffs() {
                 <div className='col__3'>
                     <StaffBox 
                         name='Staff 4'
-                        image={staffImg1}
+                        image={staffImg2}
                         testimonial='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita numquam ipsam, consequuntur delectus 
                         dolorem voluptas quasi est adipisci ut eveniet.'
                     />

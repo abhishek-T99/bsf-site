@@ -24,23 +24,30 @@ function Service() {
         <div className='container'>
             <div className='row'>
                 <div className='col__3'>
-                    <ServiceBox />
+                    <ServiceBox
+                        name='FundRaising'
+                        description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolores provident minus aut cum alias.'
+                    />
                 </div>
                 <div className='col__3'>
-                    <ServiceBox />
+                    <ServiceBox
+                        name='Child Welfare'
+                        description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolores provident minus aut cum alias.'
+                    />
                 </div>
                 <div className='col__3'>
-                    <ServiceBox />
+                    <ServiceBox
+                        name='Education'
+                        description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolores provident minus aut cum alias.'
+                    />
                 </div>
                 <div className='col__3'>
-                    <ServiceBox />
+                    <ServiceBox
+                        name='Health'
+                        description='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis dolores provident minus aut cum alias.'
+                    />
                 </div>
-                <div className='col__3'>
-                    <ServiceBox />
-                </div>
-                <div className='col__3'>
-                    <ServiceBox />
-                </div>
+                
             </div>
         </div>
     </div>

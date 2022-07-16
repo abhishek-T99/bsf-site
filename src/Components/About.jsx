@@ -17,7 +17,7 @@ function About() {
                         <img className='about__img' src={aboutImg} alt='creator' />
                     </div>
                     <div className='col__2'>
-                        <h1 className='about__heading'>ABOUT ME</h1>
+                        <h1 className='about__heading'>ABOUT US</h1>
                         <div className='about__meta'>
                             <p className='about__text p__color'>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error minus dignissimos repellendus
