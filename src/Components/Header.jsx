@@ -12,7 +12,7 @@ function Header() {
   })
 
   //toggle menu
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState(false)
 
   return (
     <div className='header d__flex align__items__center pxy__30'>
@@ -24,7 +24,8 @@ function Header() {
           <a href='/#Home'><li className='nav__items mx__15'>Home</li></a>
           <a href='/#About'><li className='nav__items mx__15'>About</li></a>
           <a href='/#Services'><li className='nav__items mx__15'>Services</li></a>
-          <a href='/#Project'><li className='nav__items mx__15'>Portfolio</li></a>
+          <a href='/#Project'><li className='nav__items mx__15'>Projects</li></a>
+          <a href='/#Staffs'><li className='nav__items mx__15'>Staffs</li></a>
           <a href='/#Blog'><li className='nav__items mx__15'>Blog</li></a>
           <a href='/#Contact'><li className='nav__items mx__15'>Contact</li></a>
         </ul>

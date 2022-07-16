@@ -15,7 +15,10 @@ function SideNavbar() {
                     <a href="#Services">Services</a>
                 </li>
                 <li className="sideNavbar">
-                    <a href="#Project">Portfolio</a>
+                    <a href="#Project">Project</a>
+                </li>
+                <li className="sideNavbar">
+                    <a href="#Staffs">Staffs</a>
                 </li>
                 <li className="sideNavbar">
                     <a href="#Blog">Blog</a>

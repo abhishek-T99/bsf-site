@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/BlogBox.css'
+import '../Styles/Blog.css'
 import BlogBox from './BlogBox'
 import blogimg1 from '../Images/blog-01.jpg'
 import blogimg2 from '../Images/blog-02.jpg'
